@@ -1,6 +1,14 @@
-venv/
-.venv/
+# Python
 __pycache__/
 *.pyc
-.env
-.ipynb_checkpoints
+
+# Virtual environment
+venv/
+
+# Large generated files
+*.npy
+*.pkl
+*.faiss
+
+# OS files
+.DS_Store
